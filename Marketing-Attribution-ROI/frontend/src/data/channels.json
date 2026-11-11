@@ -1,0 +1,51 @@
+[
+  {
+    "id": "CHN-2026-000001",
+    "name": "Google Paid Search",
+    "type": "Paid Search",
+    "status": "Active",
+    "owner": "Sarah Chen",
+    "description": "High-intent commercial search keywords across North America and EMEA."
+  },
+  {
+    "id": "CHN-2026-000002",
+    "name": "LinkedIn Ads",
+    "type": "Paid Social",
+    "status": "Active",
+    "owner": "Marcus Vance",
+    "description": "Account-based targeting for VP Marketing, CRO, and RevOps buyers."
+  },
+  {
+    "id": "CHN-2026-000003",
+    "name": "Lifecycle Email",
+    "type": "Email",
+    "status": "Active",
+    "owner": "Priya Nair",
+    "description": "Automated mid-funnel nurture sequences and product demo follow-ups."
+  },
+  {
+    "id": "CHN-2026-000004",
+    "name": "Programmatic Display",
+    "type": "Display",
+    "status": "Active",
+    "owner": "David Kim",
+    "description": "Cross-site retargeting and intent-based display banners."
+  },
+  {
+    "id": "CHN-2026-000005",
+    "name": "Executive Events",
+    "type": "Events",
+    "status": "Active",
+    "owner": "Elena Rostova",
+    "description": "In-person summits, executive roundtables, and partner co-hosted workshops."
+  },
+  {
+    "id": "CHN-2026-000006",
+    "name": "Organic & Partner SEO",
+    "type": "Organic",
+    "status": "Active",
+    "owner": "Alex Morgan",
+    "description": "Editorial attribution benchmarks, SEO landing guides, and organic referrals."
+  }
+]
+

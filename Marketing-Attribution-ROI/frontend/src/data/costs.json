@@ -1,0 +1,93 @@
+[
+  {
+    "id": "COST-2026-000001",
+    "campaignId": "CMP-2026-000001",
+    "channel": "Google Paid Search",
+    "category": "Media Spend",
+    "amount": 28000,
+    "currency": "USD",
+    "date": "2026-01-31",
+    "description": "January search auction click spend across North America."
+  },
+  {
+    "id": "COST-2026-000002",
+    "campaignId": "CMP-2026-000001",
+    "channel": "Google Paid Search",
+    "category": "Agency & Bid Management",
+    "amount": 14000,
+    "currency": "USD",
+    "date": "2026-02-28",
+    "description": "Q1 search optimization retainer and landing page testing."
+  },
+  {
+    "id": "COST-2026-000003",
+    "campaignId": "CMP-2026-000002",
+    "channel": "LinkedIn Ads",
+    "category": "Media Spend",
+    "amount": 22500,
+    "currency": "USD",
+    "date": "2026-02-15",
+    "description": "Sponsored content and executive InMail ABM impressions."
+  },
+  {
+    "id": "COST-2026-000004",
+    "campaignId": "CMP-2026-000002",
+    "channel": "LinkedIn Ads",
+    "category": "Creative Production",
+    "amount": 10000,
+    "currency": "USD",
+    "date": "2026-03-10",
+    "description": "Video production and carousel creative design fees."
+  },
+  {
+    "id": "COST-2026-000005",
+    "campaignId": "CMP-2026-000003",
+    "channel": "Lifecycle Email",
+    "category": "Platform & Automation",
+    "amount": 9500,
+    "currency": "USD",
+    "date": "2026-03-20",
+    "description": "Email automation send volume and interactive ROI asset hosting."
+  },
+  {
+    "id": "COST-2026-000006",
+    "campaignId": "CMP-2026-000004",
+    "channel": "Programmatic Display",
+    "category": "Media Spend",
+    "amount": 18000,
+    "currency": "USD",
+    "date": "2026-04-05",
+    "description": "Retargeting display DSP impressions across B2B publisher network."
+  },
+  {
+    "id": "COST-2026-000007",
+    "campaignId": "CMP-2026-000005",
+    "channel": "Executive Events",
+    "category": "Sponsorship & Venue",
+    "amount": 24000,
+    "currency": "USD",
+    "date": "2026-03-25",
+    "description": "RevOps Summit keynote sponsorship, booth setup, and roundtable dinner."
+  },
+  {
+    "id": "COST-2026-000008",
+    "campaignId": "CMP-2026-000006",
+    "channel": "Google Paid Search",
+    "category": "Media Spend",
+    "amount": 16000,
+    "currency": "USD",
+    "date": "2026-08-15",
+    "description": "EMEA commercial search ad spend settled in USD."
+  },
+  {
+    "id": "COST-2026-000009",
+    "campaignId": "CMP-2026-000006",
+    "channel": "Google Paid Search",
+    "category": "Local Agency Fee",
+    "amount": 4500,
+    "currency": "EUR",
+    "date": "2026-09-02",
+    "description": "EMEA localization agency invoice recorded in EUR instead of campaign currency USD."
+  }
+]
+

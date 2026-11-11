@@ -1,0 +1,57 @@
+[
+  {
+    "id": "AUD-2026-000001",
+    "name": "North America In-Market RevOps",
+    "type": "Intent Keywords",
+    "size": 48500,
+    "campaignId": "CMP-2026-000001",
+    "status": "Active",
+    "criteria": "Company size 200-5000, commercial attribution search intent"
+  },
+  {
+    "id": "AUD-2026-000002",
+    "name": "Fortune 2000 Marketing Executives",
+    "type": "Account-Based (ABM)",
+    "size": 12400,
+    "campaignId": "CMP-2026-000002",
+    "status": "Active",
+    "criteria": "CMO, VP Marketing, VP Revenue Operations at target enterprise accounts"
+  },
+  {
+    "id": "AUD-2026-000003",
+    "name": "MQL & Demo Engaged Contacts",
+    "type": "Lifecycle Segment",
+    "size": 8900,
+    "campaignId": "CMP-2026-000003",
+    "status": "Active",
+    "criteria": "Known contacts with lead score >= 55 and no closed order"
+  },
+  {
+    "id": "AUD-2026-000004",
+    "name": "90-Day Pricing & Product Visitors",
+    "type": "Retargeting Pool",
+    "size": 31200,
+    "campaignId": "CMP-2026-000004",
+    "status": "Active",
+    "criteria": "First-party cookie visitors viewing /pricing or /demo in last 90 days"
+  },
+  {
+    "id": "AUD-2026-000005",
+    "name": "EMEA SaaS Growth Teams",
+    "type": "Geo & Firmographic",
+    "size": 22700,
+    "campaignId": "CMP-2026-000006",
+    "status": "Active",
+    "criteria": "UK, Germany, France B2B software firms with >$10M ARR"
+  },
+  {
+    "id": "AUD-2026-000006",
+    "name": "Organic Analytics Readers",
+    "type": "Organic Audience",
+    "size": 64000,
+    "campaignId": "CMP-2026-000008",
+    "status": "Active",
+    "criteria": "Organic search and referral readers of attribution guides"
+  }
+]
+

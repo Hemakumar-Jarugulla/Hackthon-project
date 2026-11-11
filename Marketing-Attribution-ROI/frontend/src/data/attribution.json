@@ -1,0 +1,70 @@
+{
+  "models": [
+    {
+      "id": "first_touch",
+      "name": "First Touch",
+      "shortLabel": "First Touch",
+      "description": "Assigns 100% of verified closed order revenue credit to the contact's earliest eligible marketing touchpoint within the conversion window."
+    },
+    {
+      "id": "last_touch",
+      "name": "Last Touch",
+      "shortLabel": "Last Touch",
+      "description": "Assigns 100% of verified closed order revenue credit to the final pre-conversion marketing touchpoint before order close."
+    },
+    {
+      "id": "linear",
+      "shortLabel": "Linear",
+      "description": "Distributes closed order revenue equally across every eligible pre-conversion touchpoint along the buyer journey."
+    },
+    {
+      "id": "time_decay",
+      "shortLabel": "Time Decay",
+      "description": "Applies an exponential 7-day half-life decay so touchpoints closer to the conversion timestamp receive higher credit."
+    },
+    {
+      "id": "position_based",
+      "shortLabel": "Position Based",
+      "description": "U-shaped allocation assigning 40% to First Touch, 40% to Last Touch, and splitting the remaining 20% evenly across middle touchpoints."
+    }
+  ],
+  "calculationHistory": [
+    {
+      "runId": "ATTR-RUN-2026-014",
+      "executedAt": "2026-11-10T09:15:00Z",
+      "period": "YTD 2026",
+      "conversionWindowDays": 90,
+      "validOrdersProcessed": 6,
+      "excludedDuplicateOrders": 1,
+      "excludedPostConversionTouches": 1,
+      "totalAttributedRevenue": 490000,
+      "status": "Completed",
+      "triggeredBy": "Scheduled Daily Sync"
+    },
+    {
+      "runId": "ATTR-RUN-2026-013",
+      "executedAt": "2026-11-03T09:15:00Z",
+      "period": "YTD 2026",
+      "conversionWindowDays": 90,
+      "validOrdersProcessed": 6,
+      "excludedDuplicateOrders": 1,
+      "excludedPostConversionTouches": 1,
+      "totalAttributedRevenue": 490000,
+      "status": "Completed",
+      "triggeredBy": "Alex Morgan"
+    },
+    {
+      "runId": "ATTR-RUN-2026-012",
+      "executedAt": "2026-10-21T16:40:00Z",
+      "period": "Q3-Q4 2026",
+      "conversionWindowDays": 60,
+      "validOrdersProcessed": 5,
+      "excludedDuplicateOrders": 1,
+      "excludedPostConversionTouches": 1,
+      "totalAttributedRevenue": 440000,
+      "status": "Completed",
+      "triggeredBy": "Sarah Chen"
+    }
+  ]
+}
+

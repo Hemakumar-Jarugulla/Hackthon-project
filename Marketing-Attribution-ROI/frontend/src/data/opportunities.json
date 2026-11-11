@@ -1,0 +1,124 @@
+[
+  {
+    "id": "OPP-2026-000001",
+    "leadId": "LEAD-2026-000001",
+    "contactId": "CON-2026-000001",
+    "name": "NorthStar Cloud · Enterprise Attribution License",
+    "stage": "Closed Won",
+    "expectedRevenue": 115000,
+    "actualRevenue": 120000,
+    "closingDate": "2026-03-18",
+    "status": "Won"
+  },
+  {
+    "id": "OPP-2026-000002",
+    "leadId": "LEAD-2026-000002",
+    "contactId": "CON-2026-000002",
+    "name": "Veridian Ops · Multi-Region ROI Suite",
+    "stage": "Closed Won",
+    "expectedRevenue": 90000,
+    "actualRevenue": 85000,
+    "closingDate": "2026-04-22",
+    "status": "Won"
+  },
+  {
+    "id": "OPP-2026-000003",
+    "leadId": "LEAD-2026-000003",
+    "contactId": "CON-2026-000003",
+    "name": "NordicPay · RevOps Intelligence Tier",
+    "stage": "Closed Won",
+    "expectedRevenue": 64000,
+    "actualRevenue": 64000,
+    "closingDate": "2026-05-19",
+    "status": "Won"
+  },
+  {
+    "id": "OPP-2026-000004",
+    "leadId": "LEAD-2026-000004",
+    "contactId": "CON-2026-000004",
+    "name": "FinScale UK · EMEA Attribution Platform",
+    "stage": "Closed Won",
+    "expectedRevenue": 95000,
+    "actualRevenue": 96000,
+    "closingDate": "2026-07-28",
+    "status": "Won"
+  },
+  {
+    "id": "OPP-2026-000005",
+    "leadId": "LEAD-2026-000005",
+    "contactId": "CON-2026-000005",
+    "name": "Helios Data AI · Growth Analytics Plan",
+    "stage": "Closed Won",
+    "expectedRevenue": 75000,
+    "actualRevenue": 75000,
+    "closingDate": "2026-09-14",
+    "status": "Won"
+  },
+  {
+    "id": "OPP-2026-000006",
+    "leadId": "LEAD-2026-000006",
+    "contactId": "CON-2026-000006",
+    "name": "Apex Logistics · Global Demand Attribution",
+    "stage": "Closed Won",
+    "expectedRevenue": 55000,
+    "actualRevenue": 50000,
+    "closingDate": "2026-10-20",
+    "status": "Won"
+  },
+  {
+    "id": "OPP-2026-000007",
+    "leadId": "LEAD-2026-000007",
+    "contactId": "CON-2026-000007",
+    "name": "Quantum Health · Marketing Ops Expansion",
+    "stage": "Negotiation",
+    "expectedRevenue": 110000,
+    "actualRevenue": 0,
+    "closingDate": "2026-11-30",
+    "status": "Open"
+  },
+  {
+    "id": "OPP-2026-000008",
+    "leadId": "LEAD-2026-000008",
+    "contactId": "CON-2026-000008",
+    "name": "KuroTech Robotics · Enterprise Pilot",
+    "stage": "Proposal",
+    "expectedRevenue": 68000,
+    "actualRevenue": 0,
+    "closingDate": "2026-12-10",
+    "status": "Open"
+  },
+  {
+    "id": "OPP-2026-000009",
+    "leadId": "LEAD-2026-000009",
+    "contactId": "CON-2026-000009",
+    "name": "BrightGrid Energy · Attribution Onboarding",
+    "stage": "Qualification",
+    "expectedRevenue": 48000,
+    "actualRevenue": 0,
+    "closingDate": "2026-12-18",
+    "status": "Open"
+  },
+  {
+    "id": "OPP-2026-000010",
+    "leadId": "LEAD-2026-000010",
+    "contactId": "CON-2026-000010",
+    "name": "Alpine Commerce · DACH Analytics Deal",
+    "stage": "New",
+    "expectedRevenue": 42000,
+    "actualRevenue": 0,
+    "closingDate": "2026-12-28",
+    "status": "Open"
+  },
+  {
+    "id": "OPP-2026-000011",
+    "leadId": "LEAD-2026-000011",
+    "contactId": "CON-2026-000011",
+    "name": "Veloce FinTech · Display Expansion",
+    "stage": "Closed Lost",
+    "expectedRevenue": 36000,
+    "actualRevenue": 0,
+    "closingDate": "2026-10-30",
+    "status": "Lost"
+  }
+]
+

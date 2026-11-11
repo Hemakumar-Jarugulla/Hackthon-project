@@ -1,0 +1,123 @@
+[
+  {
+    "id": "CON-2026-000001",
+    "name": "Claire Bennett",
+    "email": "c.bennett@northstarcloud.io",
+    "phone": "+1 (415) 555-0142",
+    "company": "NorthStar Cloud Inc.",
+    "source": "Paid Search",
+    "createdDate": "2026-01-18",
+    "lifecycleStatus": "Customer"
+  },
+  {
+    "id": "CON-2026-000002",
+    "name": "Marcus Sterling",
+    "email": "m.sterling@veridianops.com",
+    "phone": "+1 (212) 555-0188",
+    "company": "Veridian Ops",
+    "source": "Paid Social",
+    "createdDate": "2026-02-14",
+    "lifecycleStatus": "Customer"
+  },
+  {
+    "id": "CON-2026-000003",
+    "name": "Hannah Lindqvist",
+    "email": "hannah@nordicpay.eu",
+    "phone": "+46 8 555 0194",
+    "company": "NordicPay Systems",
+    "source": "Display",
+    "createdDate": "2026-03-10",
+    "lifecycleStatus": "Customer"
+  },
+  {
+    "id": "CON-2026-000004",
+    "name": "Daniel Okafor",
+    "email": "d.okafor@finscale.co.uk",
+    "phone": "+44 20 7946 0112",
+    "company": "FinScale UK",
+    "source": "Organic",
+    "createdDate": "2026-05-15",
+    "lifecycleStatus": "Customer"
+  },
+  {
+    "id": "CON-2026-000005",
+    "name": "Sophia Martinez",
+    "email": "smartinez@heliosdata.ai",
+    "phone": "+1 (512) 555-0133",
+    "company": "Helios Data AI",
+    "source": "Events",
+    "createdDate": "2026-04-10",
+    "lifecycleStatus": "Customer"
+  },
+  {
+    "id": "CON-2026-000006",
+    "name": "Liam Gallagher",
+    "email": "liam@apexlogistics.com",
+    "phone": "+1 (312) 555-0176",
+    "company": "Apex Logistics",
+    "source": "Paid Search",
+    "createdDate": "2026-08-05",
+    "lifecycleStatus": "Customer"
+  },
+  {
+    "id": "CON-2026-000007",
+    "name": "Rachel Foster",
+    "email": "rfoster@quantumhealth.org",
+    "phone": "+1 (617) 555-0165",
+    "company": "Quantum Health",
+    "source": "Paid Social",
+    "createdDate": "2026-07-12",
+    "lifecycleStatus": "Opportunity"
+  },
+  {
+    "id": "CON-2026-000008",
+    "name": "Kenji Takahashi",
+    "email": "kenji@kurotech.jp",
+    "phone": "+81 3 5555 0140",
+    "company": "KuroTech Robotics",
+    "source": "Paid Search",
+    "createdDate": "2026-08-19",
+    "lifecycleStatus": "Opportunity"
+  },
+  {
+    "id": "CON-2026-000009",
+    "name": "Olivia Hughes",
+    "email": "olivia@brightgrid.io",
+    "phone": "+1 (206) 555-0191",
+    "company": "BrightGrid Energy",
+    "source": "Email",
+    "createdDate": "2026-09-04",
+    "lifecycleStatus": "Opportunity"
+  },
+  {
+    "id": "CON-2026-000010",
+    "name": "Noah Weber",
+    "email": "n.weber@alpinecommerce.de",
+    "phone": "+49 30 5555 0123",
+    "company": "Alpine Commerce",
+    "source": "Paid Search",
+    "createdDate": "2026-09-22",
+    "lifecycleStatus": "Lead"
+  },
+  {
+    "id": "CON-2026-000011",
+    "name": "Amara Patel",
+    "email": "amara@velocefin.com",
+    "phone": "+1 (646) 555-0158",
+    "company": "Veloce FinTech",
+    "source": "Display",
+    "createdDate": "2026-10-08",
+    "lifecycleStatus": "Lead"
+  },
+  {
+    "id": "CON-2026-000012",
+    "name": "Ethan Brooks",
+    "email": "ebrooks@summitretail.com",
+    "phone": "+1 (404) 555-0119",
+    "company": "Summit Retail Group",
+    "source": "Organic",
+    "createdDate": "2026-10-25",
+    "lifecycleStatus": "Subscriber"
+  }
+]
+

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "LEAD-2026-000001",
+    "contactId": "CON-2026-000001",
+    "campaignId": "CMP-2026-000001",
+    "source": "Paid Search",
+    "score": 92,
+    "createdDate": "2026-02-26",
+    "status": "Converted"
+  },
+  {
+    "id": "LEAD-2026-000002",
+    "contactId": "CON-2026-000002",
+    "campaignId": "CMP-2026-000002",
+    "source": "Paid Social",
+    "score": 88,
+    "createdDate": "2026-03-21",
+    "status": "Converted"
+  },
+  {
+    "id": "LEAD-2026-000003",
+    "contactId": "CON-2026-000003",
+    "campaignId": "CMP-2026-000004",
+    "source": "Display",
+    "score": 81,
+    "createdDate": "2026-04-14",
+    "status": "Converted"
+  },
+  {
+    "id": "LEAD-2026-000004",
+    "contactId": "CON-2026-000004",
+    "campaignId": "CMP-2026-000006",
+    "source": "Paid Search",
+    "score": 90,
+    "createdDate": "2026-07-09",
+    "status": "Converted"
+  },
+  {
+    "id": "LEAD-2026-000005",
+    "contactId": "CON-2026-000005",
+    "campaignId": "CMP-2026-000005",
+    "source": "Events",
+    "score": 86,
+    "createdDate": "2026-08-22",
+    "status": "Converted"
+  },
+  {
+    "id": "LEAD-2026-000006",
+    "contactId": "CON-2026-000006",
+    "campaignId": "CMP-2026-000003",
+    "source": "Email",
+    "score": 84,
+    "createdDate": "2026-09-20",
+    "status": "Converted"
+  },
+  {
+    "id": "LEAD-2026-000007",
+    "contactId": "CON-2026-000007",
+    "campaignId": "CMP-2026-000002",
+    "source": "Paid Social",
+    "score": 79,
+    "createdDate": "2026-07-15",
+    "status": "Qualified"
+  },
+  {
+    "id": "LEAD-2026-000008",
+    "contactId": "CON-2026-000008",
+    "campaignId": "CMP-2026-000006",
+    "source": "Paid Search",
+    "score": 74,
+    "createdDate": "2026-08-24",
+    "status": "Qualified"
+  },
+  {
+    "id": "LEAD-2026-000009",
+    "contactId": "CON-2026-000009",
+    "campaignId": "CMP-2026-000003",
+    "source": "Email",
+    "score": 68,
+    "createdDate": "2026-09-08",
+    "status": "Qualified"
+  },
+  {
+    "id": "LEAD-2026-000010",
+    "contactId": "CON-2026-000010",
+    "campaignId": "CMP-2026-000006",
+    "source": "Paid Search",
+    "score": 62,
+    "createdDate": "2026-09-25",
+    "status": "New"
+  },
+  {
+    "id": "LEAD-2026-000011",
+    "contactId": "CON-2026-000011",
+    "campaignId": "CMP-2026-000007",
+    "source": "Display",
+    "score": 51,
+    "createdDate": "2026-10-10",
+    "status": "Disqualified"
+  }
+]
+

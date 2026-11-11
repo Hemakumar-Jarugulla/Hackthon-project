@@ -1,0 +1,54 @@
+[
+  {
+    "id": "EXC-2026-000002",
+    "issueType": "Touchpoint after conversion attributed",
+    "entityType": "Touchpoint",
+    "entityId": "TOUCH-CON-2026-000002-000004",
+    "severity": "High",
+    "description": "Display retargeting impression occurred on 2026-04-29, seven days after ORD-2026-000002 closed on 2026-04-22.",
+    "expectedDecision": "Exclude post-conversion touchpoints (timestamp > orderDate) from attribution eligibility.",
+    "actualDecision": "Marked invalid (isPostConversion = true) and blocked from attribution weights.",
+    "resolutionStatus": "Reviewed",
+    "createdDate": "2026-04-30",
+    "notes": "Retargeting audience exclusion sync delayed by 7 days."
+  },
+  {
+    "id": "EXC-2026-000003",
+    "issueType": "Spend currency mismatch",
+    "entityType": "Cost",
+    "entityId": "COST-2026-000009",
+    "severity": "Medium",
+    "description": "Cost ledger entry COST-2026-000009 (4,500 EUR) assigned to USD-denominated campaign CMP-2026-000006 without FX normalization.",
+    "expectedDecision": "Convert EUR ledger spend to campaign currency (USD) using settlement FX rate before ROI calculation.",
+    "actualDecision": "Quarantined EUR entry from raw USD spend sum until FX conversion rule is applied.",
+    "resolutionStatus": "Open",
+    "createdDate": "2026-09-03",
+    "notes": ""
+  },
+  {
+    "id": "EXC-2026-000004",
+    "issueType": "Campaign costs omitted",
+    "entityType": "Campaign",
+    "entityId": "CMP-2026-000007",
+    "severity": "High",
+    "description": "Paid campaign CMP-2026-000007 has $20,000 approved budget and active touchpoints (TOUCH-CON-2026-000006-000002) but zero verified entries in the marketing cost ledger.",
+    "expectedDecision": "Block final ROI ranking and raise missing-cost alert until media invoices are logged.",
+    "actualDecision": "Campaign paused and ROI calculation safeguarded against zero-cost inflation.",
+    "resolutionStatus": "Open",
+    "createdDate": "2026-09-01",
+    "notes": ""
+  },
+  {
+    "id": "EXC-2026-000005",
+    "issueType": "Anonymous session linked without evidence",
+    "entityType": "Session",
+    "entityId": "SES-2026-000015",
+    "severity": "Low",
+    "description": "Anonymous session anon-7740z9 was associated with contact CON-2026-000011 without a matching email login, UTM identity token, or form submission.",
+    "expectedDecision": "Keep session anonymous until deterministic identity resolution evidence is captured.",
+    "actualDecision": "Flagged as Unverified Link and excluded from attributed conversion paths.",
+    "resolutionStatus": "Open",
+    "createdDate": "2026-10-22",
+    "notes": ""
+  }
+]

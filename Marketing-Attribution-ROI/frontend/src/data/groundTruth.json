@@ -1,0 +1,10 @@
+{
+  "_meta": "Internal benchmark verification labels kept strictly separate from ordinary frontend input forms.",
+  "expectedVerifiedClosedRevenue": 490000,
+  "expectedValidOrderCount": 6,
+  "expectedDuplicateOrderIds": [],
+  "expectedPostConversionTouchpointIds": ["TOUCH-CON-2026-000002-000004"],
+  "expectedCurrencyMismatchCostIds": ["COST-2026-000009"],
+  "expectedOmittedCostCampaignIds": ["CMP-2026-000007"],
+  "expectedUnverifiedSessionIds": ["SES-2026-000015"]
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "USR-2026-001",
+    "name": "Alex Morgan",
+    "email": "alex.morgan@attributioniq.io",
+    "role": "Marketing Ops Admin",
+    "department": "Revenue Operations",
+    "status": "Active",
+    "lastActive": "2026-11-11T11:45:00Z"
+  },
+  {
+    "id": "USR-2026-002",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@attributioniq.io",
+    "role": "Revenue Analyst",
+    "department": "Growth Analytics",
+    "status": "Active",
+    "lastActive": "2026-11-11T10:20:00Z"
+  },
+  {
+    "id": "USR-2026-003",
+    "name": "Marcus Vance",
+    "email": "marcus.vance@attributioniq.io",
+    "role": "Campaign Manager",
+    "department": "Demand Generation",
+    "status": "Active",
+    "lastActive": "2026-11-10T18:15:00Z"
+  },
+  {
+    "id": "USR-2026-004",
+    "name": "Priya Nair",
+    "email": "priya.nair@attributioniq.io",
+    "role": "Data Steward",
+    "department": "Data Governance",
+    "status": "Active",
+    "lastActive": "2026-11-11T09:05:00Z"
+  },
+  {
+    "id": "USR-2026-005",
+    "name": "Elena Rostova",
+    "email": "elena.rostova@attributioniq.io",
+    "role": "Executive Viewer",
+    "department": "Executive Leadership",
+    "status": "Invited",
+    "lastActive": "2026-11-05T15:30:00Z"
+  }
+]
+

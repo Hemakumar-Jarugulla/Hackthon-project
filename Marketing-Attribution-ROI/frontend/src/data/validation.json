@@ -1,0 +1,146 @@
+{
+  "checks": [
+    {
+      "id": "VAL-001",
+      "checkName": "Primary Key Uniqueness",
+      "category": "Primary key uniqueness",
+      "entity": "All Core Entities",
+      "recordsChecked": 105,
+      "failedRecords": 0,
+      "status": "Passed",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "All Campaign, Contact, Touchpoint, Session, Lead, Opportunity, Order, and Cost IDs are unique."
+    },
+    {
+      "id": "VAL-002",
+      "checkName": "Foreign Key Integrity",
+      "category": "Foreign key integrity",
+      "entity": "Touchpoints / Leads / Orders",
+      "recordsChecked": 57,
+      "failedRecords": 0,
+      "status": "Passed",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "100% of child records resolve cleanly to valid parent Campaigns, Contacts, and Opportunities."
+    },
+    {
+      "id": "VAL-003",
+      "checkName": "Allowed Enumerated Values",
+      "category": "Allowed values",
+      "entity": "Campaigns / Opportunities / Orders",
+      "recordsChecked": 26,
+      "failedRecords": 0,
+      "status": "Passed",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "Statuses, pipeline stages, payment states, and channel types match schema constraints."
+    },
+    {
+      "id": "VAL-004",
+      "checkName": "Chronological Date Ordering",
+      "category": "Date ordering",
+      "entity": "Touchpoints vs Orders",
+      "recordsChecked": 23,
+      "failedRecords": 1,
+      "status": "Failed",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "1 touchpoint (TOUCH-CON-2026-000002-000004) occurred after order close date (2026-04-22)."
+    },
+    {
+      "id": "VAL-005",
+      "checkName": "Revenue Reconciliation",
+      "category": "Revenue reconciliation",
+      "entity": "Orders vs Attribution",
+      "recordsChecked": 6,
+      "failedRecords": 0,
+      "status": "Passed",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "Valid closed order total ($490,000) reconciles 100% with attributed revenue across all 5 models."
+    },
+    {
+      "id": "VAL-006",
+      "checkName": "Cost Ledger Completeness",
+      "category": "Cost reconciliation",
+      "entity": "Campaigns vs Marketing Costs",
+      "recordsChecked": 8,
+      "failedRecords": 1,
+      "status": "Warning",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "Paid campaign CMP-2026-000007 ($20,000 budget) has omitted cost ledger entries."
+    },
+    {
+      "id": "VAL-007",
+      "checkName": "Attribution Percentage Totals",
+      "category": "Attribution percentage totals",
+      "entity": "Attribution Engine",
+      "recordsChecked": 30,
+      "failedRecords": 0,
+      "status": "Passed",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "Every order's attribution weights sum exactly to 100.00% across all 5 models."
+    },
+    {
+      "id": "VAL-008",
+      "checkName": "Duplicate Revenue Detection",
+      "category": "Duplicate records",
+      "entity": "Orders",
+      "recordsChecked": 6,
+      "failedRecords": 0,
+      "status": "Passed",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "No duplicate orders detected; valid closed order total ($490,000) reconciles with attributed revenue across all 5 models."
+    },
+    {
+      "id": "VAL-009",
+      "checkName": "Lifecycle Stage Transitions",
+      "category": "Lifecycle transitions",
+      "entity": "Contacts / Leads / Opportunities",
+      "recordsChecked": 34,
+      "failedRecords": 1,
+      "status": "Warning",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "Session SES-2026-000015 linked an anonymous visitor to CON-2026-000011 without deterministic evidence."
+    },
+    {
+      "id": "VAL-010",
+      "checkName": "Currency Consistency",
+      "category": "Currency consistency",
+      "entity": "Marketing Costs vs Campaigns",
+      "recordsChecked": 9,
+      "failedRecords": 1,
+      "status": "Failed",
+      "lastRun": "2026-11-11T08:00:00Z",
+      "details": "Cost entry COST-2026-000009 recorded in EUR for USD-denominated campaign CMP-2026-000006."
+    }
+  ],
+  "history": [
+    {
+      "runId": "VAL-RUN-2026-042",
+      "timestamp": "2026-11-11T08:00:00Z",
+      "totalChecks": 10,
+      "passed": 5,
+      "failed": 3,
+      "warnings": 2,
+      "durationMs": 412,
+      "triggeredBy": "Automated Nightly Audit"
+    },
+    {
+      "runId": "VAL-RUN-2026-041",
+      "timestamp": "2026-11-10T08:00:00Z",
+      "totalChecks": 10,
+      "passed": 5,
+      "failed": 3,
+      "warnings": 2,
+      "durationMs": 398,
+      "triggeredBy": "Automated Nightly Audit"
+    },
+    {
+      "runId": "VAL-RUN-2026-040",
+      "timestamp": "2026-11-08T14:22:00Z",
+      "totalChecks": 10,
+      "passed": 6,
+      "failed": 2,
+      "warnings": 2,
+      "durationMs": 425,
+      "triggeredBy": "Alex Morgan"
+    }
+  ]
+}

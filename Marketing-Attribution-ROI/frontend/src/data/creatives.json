@@ -1,0 +1,93 @@
+[
+  {
+    "id": "CRT-2026-000001",
+    "name": "Search RSA · Attribution Software",
+    "campaignId": "CMP-2026-000001",
+    "type": "Responsive Search Ad",
+    "description": "Headline variants highlighting 5-model revenue attribution and ROAS visibility.",
+    "startDate": "2026-01-05",
+    "endDate": "2026-03-31",
+    "status": "Active"
+  },
+  {
+    "id": "CRT-2026-000002",
+    "name": "Search EMEA · GDPR Compliant ROI",
+    "campaignId": "CMP-2026-000006",
+    "type": "Responsive Search Ad",
+    "description": "Localized EMEA ad copy emphasizing first-party server-side session linking.",
+    "startDate": "2026-07-01",
+    "endDate": "2026-10-31",
+    "status": "Active"
+  },
+  {
+    "id": "CRT-2026-000003",
+    "name": "LinkedIn Carousel · CFO & CMO Playbook",
+    "campaignId": "CMP-2026-000002",
+    "type": "Carousel Ad",
+    "description": "5-slide executive carousel contrasting Last Touch vs Multi-Touch ROI accuracy.",
+    "startDate": "2026-01-15",
+    "endDate": "2026-06-30",
+    "status": "Active"
+  },
+  {
+    "id": "CRT-2026-000004",
+    "name": "LinkedIn Video · 60s Platform Tour",
+    "campaignId": "CMP-2026-000002",
+    "type": "Video Ad",
+    "description": "Short product walkthrough demonstrating customer journey timelines.",
+    "startDate": "2026-03-01",
+    "endDate": "2026-06-30",
+    "status": "Active"
+  },
+  {
+    "id": "CRT-2026-000005",
+    "name": "Nurture Sequence · ROI Calculator Invite",
+    "campaignId": "CMP-2026-000003",
+    "type": "Email Template",
+    "description": "Personalized 3-part HTML nurture series with interactive benchmark CTA.",
+    "startDate": "2026-02-01",
+    "endDate": "2026-09-30",
+    "status": "Active"
+  },
+  {
+    "id": "CRT-2026-000006",
+    "name": "Display Banner · Book Live Demo",
+    "campaignId": "CMP-2026-000004",
+    "type": "Display Banner",
+    "description": "300x250 and 728x90 HTML5 retargeting banners for pricing-page visitors.",
+    "startDate": "2026-02-10",
+    "endDate": "2026-05-31",
+    "status": "Completed"
+  },
+  {
+    "id": "CRT-2026-000007",
+    "name": "Summit Keynote & Booth Kit",
+    "campaignId": "CMP-2026-000005",
+    "type": "Event Collateral",
+    "description": "QR-tracked badge scanner cards and executive briefing print collateral.",
+    "startDate": "2026-03-01",
+    "endDate": "2026-04-30",
+    "status": "Completed"
+  },
+  {
+    "id": "CRT-2026-000008",
+    "name": "Cloud Migration Display Set",
+    "campaignId": "CMP-2026-000007",
+    "type": "Display Banner",
+    "description": "B2B SaaS display creative paused pending cost reconciliation.",
+    "startDate": "2026-08-15",
+    "endDate": "2026-11-15",
+    "status": "Paused"
+  },
+  {
+    "id": "CRT-2026-000009",
+    "name": "2026 Attribution Benchmark Guide",
+    "campaignId": "CMP-2026-000008",
+    "type": "Editorial Guide",
+    "description": "Long-form ungated benchmark guide with organic UTM tracking.",
+    "startDate": "2026-01-01",
+    "endDate": "2026-12-31",
+    "status": "Active"
+  }
+]
+
